@@ -1,0 +1,30 @@
+.container{
+    padding-left: 20em;
+    padding-right: 15em;
+    border-top: 1px solid aliceblue;
+}
+
+nav, aside, main{
+    border-left:1px solid aliceblue;
+    float: left;
+}
+
+nav{
+    width: 20em;
+    margin-left: -20em;
+    border: none;
+}
+
+aside{
+    width: 15em;
+    margin-right: -16em;
+}
+
+main{
+    width: 100%;
+}
+
+footer{
+    border-top: 1px solid aliceblue;
+    clear: left;
+}
