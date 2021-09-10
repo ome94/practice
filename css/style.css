@@ -2,3 +2,19 @@ body{
     background-color: #855f0e;
     color: aliceblue;
 }
+
+nav, main, aside{
+    border-left:1px solid aliceblue;
+}
+
+nav{
+    border: none;
+}
+
+header{
+    border-bottom:1px solid aliceblue;
+}
+
+footer{
+    border-top:1px solid aliceblue;
+}
