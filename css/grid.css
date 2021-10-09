@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 15em auto 15em;
+    grid-template-rows: min-content auto min-content;
+    /* grid: repeat(3, max-content) / 20em auto 15em  */
+}
+
+header, footer{
+    grid-column: 1 / 4;
+}

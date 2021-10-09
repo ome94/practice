@@ -1,20 +1,17 @@
 body{
     background-color: #855f0e;
     color: aliceblue;
+    box-sizing: border-box;
 }
 
-nav, main, aside{
-    border-left:1px solid aliceblue;
-}
-
-nav{
-    border: none;
+nav, main{
+    border-right: 1px solid aliceblue;
 }
 
 header{
     border-bottom:1px solid aliceblue;
 }
 
-footer{
+footer, aside, main{
     border-top:1px solid aliceblue;
 }
